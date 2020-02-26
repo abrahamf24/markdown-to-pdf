@@ -1,0 +1,23 @@
+{
+  "name": "markdown-to-pdf",
+  "version": "1.0.0",
+  "description": "A node script for convert markdown files to pdf and organize them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "markdown",
+    "node",
+    "pdf",
+    "automate"
+  ],
+  "author": "Abraham Flores Cosme",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "markdown-pdf": "^10.0.0",
+    "through": "^2.3.8"
+  }
+}
